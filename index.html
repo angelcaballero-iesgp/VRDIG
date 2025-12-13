@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Índice Escenas VR - Equipos 1DAW</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f8ff;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        h2 {
+            text-align: center;
+            color: #34495e;
+            margin-bottom: 40px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 25px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        .card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+        .card h3 {
+            margin: 15px 0 8px;
+            color: #2c3e50;
+            font-size: 1.3em;
+        }
+        .card p {
+            color: #7f8c8d;
+            padding: 0 15px;
+            margin-bottom: 15px;
+        }
+        .card a {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .card a:hover {
+            background: #2980b9;
+        }
+        .placeholder {
+            background: #ecf0f1;
+            height: 220px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #95a5a6;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Escenas VR con A-Frame</h1>
+    <h2>Equipos 1DAW</h2>
+
+    <div class="gallery">
+
+        <!-- Equipo 1: Mundo Pokémon -->
+        <div class="card">
+            <img src="./images/Equipo1.png" alt="Mundo Pokémon">
+            <!-- Cuando tengas la captura real: <img src="images/pokemon.jpg" alt="Mundo Pokémon"> -->
+            <h3>Equipo 1<br>Elena, Vicente y Sami</h3>
+            <p>Mundo Pokémon</p>
+            <a href="https://crystalwolf5.github.io/A-Frame/" target="_blank">Probar escena VR</a>
+        </div>
+
+        <!-- Equipo 2: Mundo medieval (samuráis) -->
+        <div class="card">
+            <img src="./images/Equipo2.png" alt="Mundo medieval samuráis">
+            <!-- Cuando tengas la captura real: <img src="images/samurai.jpg" alt="Mundo medieval samuráis"> -->
+            <h3>Equipo 2<br>Plácido, Antonio y Borja</h3>
+            <p>Samurai simulator</p>
+            <a href="https://placido1156.github.io/proyecto-1/" target="_blank">Probar escena VR</a>
+        </div>
+
+        <!-- Equipo 3: Zoo Virtual -->
+        <div class="card">
+            <img src="./images/Equipo3.png" alt="Zoo Virtual">
+            <!-- Cuando tengas la captura real: <img src="images/zoo.jpg" alt="Zoo Virtual"> -->
+            <h3>Equipo 3<br>Paloma, María y José Ángel</h3>
+            <p>Zoo Virtual</p>
+            <a href="https://palomajnm.github.io/frame_zoo1/index.html" target="_blank">Probar escena VR</a>
+        </div>
+
+    </div>
+
+    <p style="text-align: center; margin-top: 50px; color: #7f8c8d;">
+        Proyectos realizados por alumnado de ciclos de grado superior de Informática del IES Gregorio Prieto (Valdepeñas)
+    </p>
+</body>
+</html>
